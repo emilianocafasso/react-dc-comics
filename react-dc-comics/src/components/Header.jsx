@@ -6,10 +6,10 @@ export default function Header() {
             <nav className="container navbar d-flex justify-content-between">
                 <div>
                     <a className="navbar-brand" href="#">
-                        <img src={dcLogo} alt="Logo" width="30" height="24" />
+                        <img src={dcLogo} alt="Logo" width={60} />
                     </a>
                 </div>
-                <ul className="nav">
+                <ul className="nav fs-6">
                     <li className="nav-item">
                         <a className="nav-link text-dark active" aria-current="page" href="#">CHARACTERS</a>
                     </li>
