@@ -11,16 +11,34 @@ export default function Header() {
                 </div>
                 <ul className="nav">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#">Active</a>
+                        <a className="nav-link text-dark active" aria-current="page" href="#">CHARACTERS</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link text-dark active" aria-current="page" href="#">COMICS</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Link</a>
+                        <a className="nav-link text-dark active" aria-current="page" href="#">MOVIES</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a className="nav-link text-dark active" aria-current="page" href="#">TV</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">GAMES</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">COLLECTIBLES</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">VIDEOS</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">FANS</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">NEWS</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link text-dark" href="#">SHOP</a>
                     </li>
                 </ul>
             </nav>
