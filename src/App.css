@@ -48,3 +48,12 @@ a {
     }
   }
 }
+
+#comics {
+  flex-wrap: wrap;
+  gap: 2rem;
+
+  li {
+    width: calc(100%/6 - 2rem);
+  }
+}
