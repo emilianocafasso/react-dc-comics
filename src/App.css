@@ -57,3 +57,10 @@ a {
     width: calc(100%/6 - 2rem);
   }
 }
+
+.jumbotron {
+  height: 350px;
+  background-image: url(./assets/img/jumbotron.jpg);
+
+  background-size: cover;
+}

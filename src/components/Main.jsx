@@ -8,8 +8,14 @@ import comics from '../assets/comics'
 export default function Main() {
     return (
         <main>
+
+            <div className="jumbotron">
+            </div>
+
             <div className="bg-dark py-4">
-                <button className='btn btn-primary text-uppercase fw-bold border-radious-4'>current series</button>
+
+                <button className='btn btn-primary text-uppercase fw-bold border-radious-4 mx-5'>current series</button>
+
                 <div className="container d-flex align-items-center mt-4">
                     <ul className='list-unstyled d-flex justify-content-center' id='comics'>
                         {
