@@ -52,15 +52,34 @@ a {
 #comics {
   flex-wrap: wrap;
   gap: 2rem;
+  justify-content: center;
+}
 
-  li {
-    width: calc(100%/6 - 2rem);
-  }
+.comic-card {
+  width: calc(100%/6 - 2rem);
+  margin-bottom: 1rem;
+}
+
+.comic.image {
+  width: 100%;
+  height: auto;
+}
+
+.comic-title {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 
 .jumbotron {
-  height: 350px;
+  height: 500px;
   background-image: url(./assets/img/jumbotron.jpg);
-
   background-size: cover;
+
+  position: relative;
+}
+
+#current-series-btn {
+  position: absolute;
+  top: 550px;
+  left: 10%;
 }

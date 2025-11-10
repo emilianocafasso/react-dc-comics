@@ -4,23 +4,24 @@ import shoplocatorLogo from '../assets/img/buy-comics-shop-locator.png'
 import subscriptionLogo from '../assets/img/buy-comics-subscriptions.png'
 import powervisaLogo from '../assets/img/buy-dc-power-visaa.png'
 import comics from '../assets/comics'
+import ComicCard from './ComicCard'
+
 
 export default function Main() {
     return (
         <main>
 
-            <div className="jumbotron">
-            </div>
+            <div className="jumbotron"></div>
 
             <div className="bg-dark py-4">
 
-                <button className='btn btn-primary text-uppercase fw-bold border-radious-4 mx-5'>current series</button>
+                <button className='btn btn-primary text-uppercase fw-bold border-radious-4 mx-5' id='current-series-btn'>current series</button>
 
                 <div className="container d-flex align-items-center mt-4">
                     <ul className='list-unstyled d-flex justify-content-center' id='comics'>
                         {
                             comics.map(comic => (
-                                <li key={comic.id} className='text-white text-uppercase'><img src={comic.thumb} width={150} height={150} /><p className='mt-2 text-center'>{comic.title}</p></li>
+                                <ComicCard key={comic.id} comic={comic} />
                             ))
                         }
                     </ul>
